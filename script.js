@@ -41,7 +41,7 @@ function showHistory(results) {
 }
 
 spinButton.addEventListener('click', () => {
-    if (usedNumbers.size >= 1910) {
+    if (usedNumbers.size >= 900) {
         alert("Tất cả các số trong phạm vi đã được quay!");
         return;
     }
