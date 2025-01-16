@@ -12,7 +12,7 @@ function getRandomNumber(min, max) {
 function spinWheel() {
     const results = [];
     while (results.length < 10) {
-        const num = getRandomNumber(1, 1910);
+        const num = getRandomNumber(1, 900);
         if (!usedNumbers.has(num)) {
             results.push(num);
             usedNumbers.add(num);
